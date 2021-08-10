@@ -1,0 +1,232 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	height: 145px;
+	padding: 8px 40px 8px 20px;
+}
+
+
+.contacts {
+	width: 455px;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.contacts .upper-block {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.contacts .schedule {
+	width: 160px;
+	padding-left: 40px;
+	margin-top: 10px;
+	text-align: center;
+	background: url('images/clock.png') no-repeat left center;
+}
+
+.contacts .delivery {
+	width: 205px;
+	padding-left: 40px;
+	margin-top: 10px;
+	text-align: center;
+	background: url('images/car.png') no-repeat left center;
+}
+
+.contacts .phone {
+	width: 265px;
+	height: 60px;
+	margin: 0 auto;
+	font-size: 31px;
+	font-style: italic;
+	line-height: 60px;
+	padding-left: 35px;
+	background: url('images/phone.png') no-repeat left center;
+}
+
+#header .busket {
+	align-self: center;
+}
+
+#header .busket a {
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	background: #a9015d;
+	padding: 4px 16px;
+	align-self: center;
+}
+
+#header .busket a:hover {
+	text-decoration: underline;
+}
+
+/*---------------------------------*/
+
+#menu {
+	margin-bottom: 10px;
+}
+
+#menu ul {
+	margin: 0;
+	/*margin-bottom: 10px;*/
+	padding: 5px 20px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	background: #e92c90;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/*---------------------------------*/
+
+#middle {
+	display: flex;
+	padding: 10px 10px 0 10px;
+}
+
+.main {
+	width: 725px;
+	padding: 0 20px 28px 0;
+}
+
+.main .slider h2 {
+	text-align: center;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 29px;
+	font-style: italic;
+	color: #3f0324;
+}
+
+.main .slider-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.main .slider-content:after {
+  content: "";
+  flex-basis: 222px;
+}
+
+.main .slider-item {
+	width: 222px;
+	height: 402px;
+	border: 5px solid #a9015d;
+	border-radius: 3px;
+	text-align: center;
+	padding: 12px 0 0 0;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.main .slider-item .slider-img {
+	height: 278px;
+	display: flex;
+    justify-content: center;
+}
+
+.main .slider-item img {
+	width: 100%;
+	align-self: center;
+}
+
+.main .slider-item .price {
+	margin-bottom: 14px;
+}
+
+.slider-item .order-btn a {
+	font-size: 31px;
+	color: white;
+	text-decoration: none;
+	background: #a9015d;
+	padding: 5px 25px;
+}
+
+.slider-item .order-btn a:hover {
+	text-decoration: underline;
+}
+
+#middle .main-text h1 {
+	text-align: center;
+	font-size: 35px;
+	font-style: italic;
+	margin: 0 0 8px 0 ;
+}
+
+#middle .main-text p {
+	text-align: justify;
+	font-size: 18px;
+	margin: 0;
+}
+
+#middle .right-menu {
+	width: 223px;
+	height: 550px;
+	background: #a9015d;
+	text-align: center;
+}
+
+#middle .right-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#middle .right-menu li {
+	margin: 15px 0;
+}
+
+#middle .right-menu a {
+	color: white;
+	font-size: 21px;
+	text-decoration: none;
+}
+
+#middle .right-menu a:hover {
+	text-decoration: underline;
+}
+
+/*---------------------------------*/
+
+#footer {
+	height: 100px;
+	background: #e92c90;
+	display: flex;
+	justify-content: space-between;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding: 15px 10px 0 10px;
+}
